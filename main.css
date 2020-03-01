@@ -1,0 +1,119 @@
+body {
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  margin: 0;
+  place-content: center;
+}
+
+.display, .historial {
+  text-align: end;
+  display: block;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0.5rem;
+  max-width: 195.2px;
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 5;
+  border-radius: 50px;
+}
+
+.display {
+  font-weight: bolder;
+  font-size: 2.5rem;
+  overflow-x: auto;
+  color: white;
+  margin-top: 0;
+}
+
+.historial {
+  color: gray;
+  margin-bottom: 0;
+  font-size: .9rem;
+  opacity: 70%;
+  min-height: .9rem;
+}
+
+.container {
+  border: solid black;
+  background-color: black;
+  border-radius: 20px;
+  padding: 0.5rem;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 0.4rem;
+  -ms-grid-columns: (auto)[4];
+      grid-template-columns: repeat(4, auto);
+  -ms-grid-rows: (auto)[5];
+      grid-template-rows: repeat(5, auto);
+}
+
+.container span {
+  height: 3rem;
+  width: 3rem;
+  background-color: #333333;
+  border-radius: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.container span p {
+  color: white;
+  display: inline;
+  vertical-align: middle;
+  font-weight: bold;
+}
+
+.container span p:not(.fas) {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container span:nth-child(19) {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 3;
+  border-radius: 50px;
+  width: 6rem;
+}
+
+.container span:nth-child(3) {
+  background-color: #a6a6a6;
+}
+
+.container span:nth-child(4) {
+  background-color: #a6a6a6;
+}
+
+.container span:nth-child(5) {
+  background-color: #a6a6a6;
+}
+
+.container span:nth-child(6) {
+  background-color: #ff9501;
+}
+
+.container span:nth-child(10) {
+  background-color: #ff9501;
+}
+
+.container span:nth-child(14) {
+  background-color: #ff9501;
+}
+
+.container span:nth-child(18) {
+  background-color: #ff9501;
+}
+
+.container span:nth-child(21) {
+  background-color: #ff9501;
+}
+/*# sourceMappingURL=main.css.map */
